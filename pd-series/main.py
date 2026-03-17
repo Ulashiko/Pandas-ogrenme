@@ -1,5 +1,5 @@
 import pandas as pd
-#Creating a Series by passing a list of values, letting pandas create a default integer index:
+#Bir liste vererek Series oluşturma, pandas varsayılan tam sayı index'i otomatik atar:
 a = [1, 7, 2]
 
 myvar = pd.Series(a)
