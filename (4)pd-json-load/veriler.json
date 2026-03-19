@@ -1,0 +1,49 @@
+{
+  "calisanlar": [
+    {
+      "id": 1,
+      "isim": "Ahmet Yılmaz",
+      "departman": "IT",
+      "maas": 15000,
+      "sehir": "İstanbul",
+      "tecrube_yili": 5
+    },
+    {
+      "id": 2,
+      "isim": "Ayşe Demir",
+      "departman": "HR",
+      "maas": 12000,
+      "sehir": "Ankara",
+      "tecrube_yili": 3
+    },
+    {
+      "id": 3,
+      "isim": "Mehmet Kaya",
+      "departman": "IT",
+      "maas": 18000,
+      "sehir": "İzmir",
+      "tecrube_yili": 7
+    },
+    {
+      "id": 4,
+      "isim": "Fatma Şahin",
+      "departman": "Finance",
+      "maas": 14000,
+      "sehir": "İstanbul",
+      "tecrube_yili": 4
+    },
+    {
+      "id": 5,
+      "isim": "Ali Öztürk",
+      "departman": "IT",
+      "maas": 16000,
+      "sehir": "Ankara",
+      "tecrube_yili": 6
+    }
+  ],
+  "firma_bilgisi": {
+    "isim": "Tech Solutions A.Ş.",
+    "kurulusYili": 2015,
+    "calisanSayisi": 150
+  }
+}
