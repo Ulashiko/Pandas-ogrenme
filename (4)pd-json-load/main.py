@@ -5,17 +5,18 @@ print("=" * 70)
 print("PANDAS İLE JSON OKUMA İŞLEMLERİ")
 print("=" * 70)
 
-# 1. TEMEL JSON OKUMA
-print("\n1. TEMEL JSON OKUMA (pd.read_json)")
-print("-" * 70)
-df = pd.read_json('veriler.json')
-print(df)
-
-# 2. JSON DOSYASINI NORMALIZE EDEREK OKUMA (İÇİÇE VERİLER İÇİN)
-print("\n2. JSON NORMALIZE İLE OKUMA")
+# 1. JSON DOSYASINI OKUMA
+print("\n1. JSON DOSYASINI PYTHON İLE OKUMA")
 print("-" * 70)
 with open('veriler.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
+
+print("JSON İçeriği:")
+print(json.dumps(data, indent=2, ensure_ascii=False))
+
+# 2. JSON NORMALIZE İLE OKUMA (İÇİÇE VERİLER İÇİN)
+print("\n2. JSON NORMALIZE İLE DATAFRAME'E DÖNÜŞTÜRME")
+print("-" * 70)
 
 # Çalışanlar verisini normalize et
 df_calisanlar = pd.json_normalize(data['calisanlar'])
@@ -111,10 +112,10 @@ print("-" * 70)
 
 # Farklı JSON formatlarına export
 df_calisanlar.to_json('calisanlar_export.json', orient='records', indent=2, force_ascii=False)
-print("✓ JSON dosyası 'calisanlar_export.json' olarak kaydedildi (orient='records')")
+print("[OK] JSON dosyasi 'calisanlar_export.json' olarak kaydedildi (orient='records')")
 
 df_calisanlar.to_json('calisanlar_table.json', orient='table', indent=2, force_ascii=False)
-print("✓ JSON dosyası 'calisanlar_table.json' olarak kaydedildi (orient='table')")
+print("[OK] JSON dosyasi 'calisanlar_table.json' olarak kaydedildi (orient='table')")
 
 # 11. İLERİ SEVİYE FİLTRELEME
 print("\n11. İLERİ SEVİYE FİLTRELEME ÖRNEKLERİ")
