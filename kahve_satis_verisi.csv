@@ -1,0 +1,101 @@
+Siparis_ID,Tarih,Urun,Adet,Kategori,Birim_Fiyat,Toplam_Kazanc
+1001,2024-01-07,Latte,1,İçecek,65,65
+1002,2024-01-20,Muffin,1,Yiyecek,50,50
+1003,2024-01-29,Kurabiye,3,Yiyecek,40,120
+1004,2024-01-15,Muffin,2,Yiyecek,50,100
+1005,2024-01-11,Muffin,1,Yiyecek,50,50
+1006,2024-01-08,Kurabiye,4,Yiyecek,40,160
+1007,2024-01-29,Espresso,1,İçecek,45,45
+1008,2024-01-21,Muffin,1,Yiyecek,50,50
+1009,2024-01-07,Sandviç,3,Yiyecek,85,255
+1010,2024-01-26,Sandviç,3,Yiyecek,85,255
+1011,2024-01-19,Latte,2,İçecek,65,130
+1012,2024-01-23,Sandviç,4,Yiyecek,85,340
+1013,2024-01-11,Latte,3,İçecek,65,195
+1014,2024-01-11,Espresso,1,İçecek,45,45
+1015,2024-01-24,Kurabiye,2,Yiyecek,40,80
+1016,2024-01-21,Kurabiye,1,Yiyecek,40,40
+1017,2024-01-04,Kurabiye,1,Yiyecek,40,40
+1018,2024-01-08,Sandviç,3,Yiyecek,85,255
+1019,2024-01-24,Espresso,2,İçecek,45,90
+1020,2024-01-03,Sandviç,4,Yiyecek,85,340
+1021,2024-01-22,Sandviç,4,Yiyecek,85,340
+1022,2024-01-21,Espresso,3,İçecek,45,135
+1023,2024-01-02,Espresso,3,İçecek,45,135
+1024,2024-01-24,Espresso,2,İçecek,45,90
+1025,2024-01-12,Espresso,4,İçecek,45,180
+1026,2024-01-30,Kurabiye,4,Yiyecek,40,160
+1027,2024-01-06,Filtre Kahve,4,İçecek,55,220
+1028,2024-01-02,Filtre Kahve,1,İçecek,55,55
+1029,2024-01-28,Espresso,4,İçecek,45,180
+1030,2024-01-21,Filtre Kahve,1,İçecek,55,55
+1031,2024-01-01,Filtre Kahve,2,İçecek,55,110
+1032,2024-01-12,Espresso,1,İçecek,45,45
+1033,2024-01-26,Filtre Kahve,2,İçecek,55,110
+1034,2024-01-22,Sandviç,4,Yiyecek,85,340
+1035,2024-01-29,Latte,4,İçecek,65,260
+1036,2024-01-12,Latte,2,İçecek,65,130
+1037,2024-01-25,Espresso,3,İçecek,45,135
+1038,2024-01-17,Kurabiye,2,Yiyecek,40,80
+1039,2024-01-27,Espresso,3,İçecek,45,135
+1040,2024-01-27,Kurabiye,1,Yiyecek,40,40
+1041,2024-01-10,Latte,1,İçecek,65,65
+1042,2024-01-28,Espresso,1,İçecek,45,45
+1043,2024-01-28,Muffin,4,Yiyecek,50,200
+1044,2024-01-16,Sandviç,1,Yiyecek,85,85
+1045,2024-01-15,Filtre Kahve,3,İçecek,55,165
+1046,2024-01-30,Kurabiye,1,Yiyecek,40,40
+1047,2024-01-30,Muffin,2,Yiyecek,50,100
+1048,2024-01-15,Filtre Kahve,2,İçecek,55,110
+1049,2024-01-30,Filtre Kahve,4,İçecek,55,220
+1050,2024-01-19,Espresso,2,İçecek,45,90
+1051,2024-01-12,Filtre Kahve,3,İçecek,55,165
+1052,2024-01-23,Sandviç,1,Yiyecek,85,85
+1053,2024-01-20,Muffin,4,Yiyecek,50,200
+1054,2024-01-25,Filtre Kahve,1,İçecek,55,55
+1055,2024-01-03,Espresso,1,İçecek,45,45
+1056,2024-01-05,Sandviç,3,Yiyecek,85,255
+1057,2024-01-19,Latte,2,İçecek,65,130
+1058,2024-01-07,Muffin,2,Yiyecek,50,100
+1059,2024-01-21,Filtre Kahve,1,İçecek,55,55
+1060,2024-01-09,Espresso,4,İçecek,45,180
+1061,2024-01-07,Latte,2,İçecek,65,130
+1062,2024-01-18,Latte,4,İçecek,65,260
+1063,2024-01-04,Kurabiye,2,Yiyecek,40,80
+1064,2024-01-25,Sandviç,4,Yiyecek,85,340
+1065,2024-01-28,Filtre Kahve,3,İçecek,55,165
+1066,2024-01-14,Espresso,4,İçecek,45,180
+1067,2024-01-18,Kurabiye,3,Yiyecek,40,120
+1068,2024-01-26,Sandviç,3,Yiyecek,85,255
+1069,2024-01-09,Kurabiye,4,Yiyecek,40,160
+1070,2024-01-26,Muffin,3,Yiyecek,50,150
+1071,2024-01-21,Sandviç,1,Yiyecek,85,85
+1072,2024-01-02,Sandviç,3,Yiyecek,85,255
+1073,2024-01-20,Filtre Kahve,2,İçecek,55,110
+1074,2024-01-28,Sandviç,4,Yiyecek,85,340
+1075,2024-01-15,Kurabiye,1,Yiyecek,40,40
+1076,2024-01-28,Sandviç,4,Yiyecek,85,340
+1077,2024-01-07,Filtre Kahve,2,İçecek,55,110
+1078,2024-01-12,Filtre Kahve,2,İçecek,55,110
+1079,2024-01-29,Muffin,2,Yiyecek,50,100
+1080,2024-01-08,Kurabiye,3,Yiyecek,40,120
+1081,2024-01-15,Latte,3,İçecek,65,195
+1082,2024-01-03,Latte,4,İçecek,65,260
+1083,2024-01-14,Sandviç,4,Yiyecek,85,340
+1084,2024-01-17,Muffin,1,Yiyecek,50,50
+1085,2024-01-04,Espresso,1,İçecek,45,45
+1086,2024-01-18,Sandviç,4,Yiyecek,85,340
+1087,2024-01-08,Muffin,3,Yiyecek,50,150
+1088,2024-01-04,Kurabiye,2,Yiyecek,40,80
+1089,2024-01-02,Kurabiye,4,Yiyecek,40,160
+1090,2024-01-30,Kurabiye,1,Yiyecek,40,40
+1091,2024-01-06,Kurabiye,3,Yiyecek,40,120
+1092,2024-01-22,Kurabiye,4,Yiyecek,40,160
+1093,2024-01-10,Muffin,4,Yiyecek,50,200
+1094,2024-01-04,Muffin,3,Yiyecek,50,150
+1095,2024-01-22,Filtre Kahve,4,İçecek,55,220
+1096,2024-01-29,Latte,3,İçecek,65,195
+1097,2024-01-18,Kurabiye,2,Yiyecek,40,80
+1098,2024-01-26,Espresso,3,İçecek,45,135
+1099,2024-01-12,Muffin,3,Yiyecek,50,150
+1100,2024-01-02,Espresso,3,İçecek,45,135
