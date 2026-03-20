@@ -1,2 +1,60 @@
-#İleride bakacağımız dosyaları git'e eklememek için .gitignore dosyasına ekleyelim.
-kahve_satis_verisi.csv
+# Random starter ignore set for Python + data playgrounds
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build output
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Notebook and analysis junk
+.ipynb_checkpoints/
+*.feather
+*.parquet
+
+# Local databases and temporary files
+*.db
+*.sqlite3
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Optional large data outputs (uncomment if needed)
+# data/raw/
+# data/processed/
+# outputs/

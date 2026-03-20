@@ -1,32 +1,71 @@
-# Pandas-ogrenme
+# Pandas Ogrenme Notlari
 
-Python Pandas kütüphanesini öğrenirken oluşturduğum notlar, örnek kodlar ve veri analizi alıştırmaları.
+Python Pandas kutuphanesini ogrenirken olusturulan notlar, ornek kodlar ve veri analizi alistirmalari.
 
-## Proje Yapısı
+## Proje Yapisi
 
-```
+```text
 pd-learn/
-├── pd-series/
-│   └── main.py          # pandas Series kullanımı
-├── pd-dataframe/
-│   └── main.py          # pandas DataFrame kullanımı
-├── kahve_satis_verisi.csv  # Örnek veri seti
-└── README.md
+|-- (0)pd-start/
+|   `-- main.py
+|-- (1)pd-series/
+|   `-- main.py
+|-- (2)pd-dataframe/
+|   |-- data.csv
+|   `-- main.py
+|-- (3)pd-loc_iloc/
+|   `-- main.py
+|-- (4)pd-json-load/
+|   |-- calisanlar_export.json
+|   |-- calisanlar_table.json
+|   |-- main.py
+|   |-- README.md
+|   `-- veriler.json
+|-- (5)pd-analyzing-data/
+|   |-- data.csv
+|   |-- main.py
+|   `-- README.md
+|-- (6)pd-cleaning-data/
+|   |-- f1_data.csv
+|   |-- README.md
+|   |-- (6)(1)pd-cleaning-empty-cells/
+|   |   |-- main.py
+|   |   `-- README.md
+|   |-- (6)(2)pd-cleaning-wrong-format/
+|   |   |-- main.py
+|   |   `-- README.md
+|   |-- (6)(3)pd-cleaning-wrong-data/
+|   |   |-- main.py
+|   |   `-- README.md
+|   `-- (6)(4)pd-cleaning-duplicates/
+|       |-- main.py
+|       `-- README.md
+|-- (7)pd-correlations/
+|   |-- main.py
+|   |-- README.md
+|   `-- workout_data.csv
+|-- kahve_satis_verisi.csv
+`-- README.md
 ```
 
 ## Konular
 
-### pd-series
-- Liste ile `pd.Series` oluşturma
-- Varsayılan integer index
-
-### pd-dataframe
-- Dictionary'den `pd.DataFrame` oluşturma
-- pandas versiyon kontrolü
+1. Baslangic: temel pandas kurulumu ve ilk script yapisi
+2. Series: liste ile `pd.Series` olusturma ve index mantigi
+3. DataFrame: sozlukten `pd.DataFrame` olusturma, CSV okuma
+4. Loc/Iloc: satir ve sutun secimi
+5. JSON Load: JSON veri okuma ve donusturme ornekleri
+6. Analyzing Data: ozet istatistikler ve veri kesfi
+7. Cleaning Data:
+	- Bos hucreleri temizleme
+	- Yanlis format duzeltme
+	- Hatali veri duzeltme
+	- Duplicate kayit temizleme
+8. Correlations: kolonlar arasi iliski analizi
 
 ## Gereksinimler
 
-```
+```text
 python >= 3.12
 pandas
 ```
@@ -37,14 +76,25 @@ pandas
 pip install pandas
 ```
 
-## Çalıştırma
+## Calistirma
+
+Asagidaki komutlarla istedigin bolumu calistirabilirsin:
 
 ```bash
-python pd-series/main.py
-python pd-dataframe/main.py
+python "(0)pd-start/main.py"
+python "(1)pd-series/main.py"
+python "(2)pd-dataframe/main.py"
+python "(3)pd-loc_iloc/main.py"
+python "(4)pd-json-load/main.py"
+python "(5)pd-analyzing-data/main.py"
+python "(6)pd-cleaning-data/(6)(1)pd-cleaning-empty-cells/main.py"
+python "(6)pd-cleaning-data/(6)(2)pd-cleaning-wrong-format/main.py"
+python "(6)pd-cleaning-data/(6)(3)pd-cleaning-wrong-data/main.py"
+python "(6)pd-cleaning-data/(6)(4)pd-cleaning-duplicates/main.py"
+python "(7)pd-correlations/main.py"
 ```
 
 ## Kaynaklar
 
-- [pandas Resmi Dokümantasyonu](https://pandas.pydata.org/docs/)
-- [W3Schools pandas Tutorial](https://www.w3schools.com/python/pandas/)
+- [Pandas Resmi Dokumantasyonu](https://pandas.pydata.org/docs/)
+- [W3Schools Pandas Tutorial](https://www.w3schools.com/python/pandas/)
