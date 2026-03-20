@@ -44,6 +44,16 @@ pd-learn/
 |   |-- main.py
 |   |-- README.md
 |   `-- workout_data.csv
+|-- (8)pd-plotting/
+|   |-- 01_basic_plot.png
+|   |-- 02_revenue_trend.png
+|   |-- 03_scatter_quantity_revenue.png
+|   |-- 04_scatter_price_revenue.png
+|   |-- 05_histogram_revenue.png
+|   |-- 06_histogram_quantity.png
+|   |-- 07_histogram_unit_price.png
+|   |-- main.py
+|   `-- README.md
 |-- kahve_satis_verisi.csv
 `-- README.md
 ```
@@ -62,18 +72,20 @@ pd-learn/
 	- Hatali veri duzeltme
 	- Duplicate kayit temizleme
 8. Correlations: kolonlar arasi iliski analizi
+9. Plotting: plot(), scatter, histogram ile veri gorsellestirme
 
 ## Gereksinimler
 
 ```text
 python >= 3.12
 pandas
+matplotlib
 ```
 
 ## Kurulum
 
 ```bash
-pip install pandas
+pip install pandas matplotlib
 ```
 
 ## Calistirma
@@ -92,6 +104,7 @@ python "(6)pd-cleaning-data/(6)(2)pd-cleaning-wrong-format/main.py"
 python "(6)pd-cleaning-data/(6)(3)pd-cleaning-wrong-data/main.py"
 python "(6)pd-cleaning-data/(6)(4)pd-cleaning-duplicates/main.py"
 python "(7)pd-correlations/main.py"
+python "(8)pd-plotting/main.py"
 ```
 
 ## Kaynaklar
