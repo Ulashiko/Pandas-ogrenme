@@ -45,13 +45,6 @@ pd-learn/
 |   |-- README.md
 |   `-- workout_data.csv
 |-- (8)pd-plotting/
-|   |-- 01_basic_plot.png
-|   |-- 02_revenue_trend.png
-|   |-- 03_scatter_quantity_revenue.png
-|   |-- 04_scatter_price_revenue.png
-|   |-- 05_histogram_revenue.png
-|   |-- 06_histogram_quantity.png
-|   |-- 07_histogram_unit_price.png
 |   |-- main.py
 |   `-- README.md
 |-- kahve_satis_verisi.csv
